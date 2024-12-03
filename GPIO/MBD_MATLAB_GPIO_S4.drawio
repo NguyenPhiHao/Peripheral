@@ -1,0 +1,449 @@
+<mxfile host="65bd71144e">
+    <diagram id="-Ls8mYim2xkE3Ge5Eo6Q" name="Page-1">
+        <mxGraphModel dx="6983" dy="3793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="237" value="&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Setting Edge-Sensitive Interrupt Input Mode&lt;/font&gt;&lt;/span&gt; &lt;br/&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-722" y="4885" width="469" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="238" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="239" target="242" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="239" value="&lt;span class=&quot;fontstyle0&quot;&gt;Edge/level select register&lt;br&gt;&lt;/span&gt;(&lt;span class=&quot;fontstyle0&quot;&gt;EDGLEVEL)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-840" y="5157" width="237" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="240" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="241" target="239" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="241" value="&lt;span class=&quot;fontstyle0&quot;&gt;Positive/negative logic select register&lt;br&gt;&lt;/span&gt;(&lt;span class=&quot;fontstyle0&quot;&gt;POSNEG)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-840" y="4996.5" width="237" height="77" as="geometry"/>
+                </mxCell>
+                <mxCell id="242" value="&lt;span class=&quot;fontstyle0&quot;&gt;One edge/both edge select register&lt;br&gt;&lt;/span&gt;(&lt;span class=&quot;fontstyle0&quot;&gt;BOTHEDGE)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-840" y="5318.5" width="237" height="77" as="geometry"/>
+                </mxCell>
+                <mxCell id="243" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="242" target="245" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="244" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="245" target="249" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="245" value="&lt;span class=&quot;fontstyle0&quot;&gt;General IO/interrupt switching register&lt;br&gt;&lt;/span&gt;(&lt;span class=&quot;fontstyle0&quot;&gt;IOINTSEL)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-840" y="5479" width="237" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="246" value="&lt;h1&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Set the edge (set to 1) as the interrupt input condition in EDGLEVEL.&lt;br&gt;0: Level&lt;br&gt;1: Edge&lt;/font&gt;&lt;/span&gt; &lt;br&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;&quot;&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-559" y="5153" width="476" height="102" as="geometry"/>
+                </mxCell>
+                <mxCell id="247" value="&lt;h1&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Set the one edge/both edge as the interrupt input condition in BOTHEDGE.&lt;br&gt;0: One edge&lt;br&gt;1: Both edge&lt;/font&gt;&lt;/span&gt; &lt;br/&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;&quot;&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-559" y="5313" width="476" height="118" as="geometry"/>
+                </mxCell>
+                <mxCell id="248" value="&lt;h1&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Set interrupt input mode in IOINTSEL.&lt;br&gt;0: General input/output mode&lt;br&gt;1: Interrupt input mode&lt;/font&gt;&lt;/span&gt; &lt;br/&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;&quot;&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-559" y="5474" width="476" height="118" as="geometry"/>
+                </mxCell>
+                <mxCell id="284" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" parent="1" source="249" target="282" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="249" value="&lt;span class=&quot;fontstyle0&quot;&gt;Interrupt clear register&lt;br&gt;&lt;/span&gt;(&lt;span class=&quot;fontstyle0&quot;&gt;INTCLR)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-840" y="5635" width="237" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="250" value="&lt;h1&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Write 1 to MSKCLR (or MSKCLRS depending on interrupt or alternative interrupt is used) cancel the interrupt mask.&lt;br&gt;0: No effect&lt;br&gt;1: Mask is cancel (cleared)&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;&quot;&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-559" y="5796" width="466" height="127" as="geometry"/>
+                </mxCell>
+                <mxCell id="251" value="&lt;h1&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Set the positive or negative logic as the interrupt input condition in POSNEG.&lt;br&gt;0: Positive logic&lt;br&gt;1: Negative logic&lt;/font&gt;&lt;/span&gt; &lt;br/&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;&quot;&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-559" y="4955" width="476" height="118" as="geometry"/>
+                </mxCell>
+                <mxCell id="282" value="&lt;span class=&quot;fontstyle0&quot;&gt;Interrupt mask clear register &lt;br&gt;(&lt;/span&gt;&lt;span class=&quot;fontstyle0&quot;&gt;MSKCLR)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-840" y="5793" width="235" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="283" value="&lt;h1&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Write 1 to INTCLR to clear (initialize) the interrupt display bit in edge-sensitive interrupt mode.&lt;br&gt;0: No effect&lt;br&gt;1: Interrupt display is cleared&lt;/font&gt;&lt;/span&gt; &lt;br/&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;&quot;&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-559" y="5635" width="476" height="118" as="geometry"/>
+                </mxCell>
+                <mxCell id="285" value="&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Setting Level-Sensitive Interrupt Input Mode&lt;/font&gt;&lt;/span&gt; &lt;br/&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="139.5" y="4880" width="469" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="303" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="287" target="293" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="287" value="&lt;span class=&quot;fontstyle0&quot;&gt;Edge/level select register&lt;br&gt;&lt;/span&gt;(&lt;span class=&quot;fontstyle0&quot;&gt;EDGLEVEL)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="21.5" y="5152" width="237" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="288" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="289" target="287" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="289" value="&lt;span class=&quot;fontstyle0&quot;&gt;Positive/negative logic select register&lt;br&gt;&lt;/span&gt;(&lt;span class=&quot;fontstyle0&quot;&gt;POSNEG)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="21.5" y="4991.5" width="237" height="77" as="geometry"/>
+                </mxCell>
+                <mxCell id="304" style="edgeStyle=none;html=1;fontSize=24;" parent="1" source="293" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="140.0000000000009" y="5480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="293" value="&lt;span class=&quot;fontstyle0&quot;&gt;General IO/interrupt switching register&lt;br&gt;&lt;/span&gt;(&lt;span class=&quot;fontstyle0&quot;&gt;IOINTSEL)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="21.5" y="5325" width="237" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="294" value="&lt;h1&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Set the edge (set to 1) as the interrupt input condition in EDGLEVEL.&lt;br&gt;0: Level&lt;br&gt;1: Edge&lt;/font&gt;&lt;/span&gt; &lt;br&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;&quot;&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="302.5" y="5148" width="476" height="102" as="geometry"/>
+                </mxCell>
+                <mxCell id="296" value="&lt;h1&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Set interrupt input mode in IOINTSEL.&lt;br&gt;0: General input/output mode&lt;br&gt;1: Interrupt input mode&lt;/font&gt;&lt;/span&gt; &lt;br/&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;&quot;&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="302.5" y="5320" width="476" height="118" as="geometry"/>
+                </mxCell>
+                <mxCell id="299" value="&lt;h1&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Write 1 to MSKCLR (or MSKCLRS depending on interrupt or alternative interrupt is used) cancel the interrupt mask.&lt;br&gt;0: No effect&lt;br&gt;1: Mask is cancel (cleared)&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;&quot;&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="304.5" y="5484" width="466" height="127" as="geometry"/>
+                </mxCell>
+                <mxCell id="300" value="&lt;h1&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Set the positive or negative logic as the interrupt input condition in POSNEG.&lt;br&gt;0: Positive logic&lt;br&gt;1: Negative logic&lt;/font&gt;&lt;/span&gt; &lt;br/&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;&quot;&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="302.5" y="4950" width="476" height="118" as="geometry"/>
+                </mxCell>
+                <mxCell id="301" value="&lt;span class=&quot;fontstyle0&quot;&gt;Interrupt mask clear register &lt;br&gt;(&lt;/span&gt;&lt;span class=&quot;fontstyle0&quot;&gt;MSKCLR)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="23.5" y="5481" width="235" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="305" value="&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Setting Pull-Up / Down&amp;nbsp;&lt;/font&gt;&lt;/span&gt; &lt;br/&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-595" y="6210" width="469" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="306" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" parent="1" source="307" target="311" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="307" value="&lt;span class=&quot;markedcontent&quot;&gt;&lt;span style=&quot;font-size:12.0pt;&lt;br/&gt;line-height:150%;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:&lt;br/&gt;Calibri;mso-fareast-theme-font:minor-latin;mso-ansi-language:EN-US;mso-fareast-language:&lt;br/&gt;EN-US;mso-bidi-language:AR-SA&quot;&gt;LSI Pin Pull-up / Down Control Register (PUD)&amp;nbsp;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-714" y="6490" width="237" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="308" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="309" target="307" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="309" value="&lt;span class=&quot;markedcontent&quot;&gt;&lt;span&gt;GPIO/Peripheral Function Select Register (GPSR)&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-714" y="6329.5" width="237" height="77" as="geometry"/>
+                </mxCell>
+                <mxCell id="311" value="&lt;span class=&quot;fontstyle0&quot;&gt;LSI pin pull-enable register (PUEN)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-714" y="6663" width="237" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="325" value="&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Peripheral Function to GPIO&lt;/font&gt;&lt;/span&gt; " style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FFCCCC;" parent="1" vertex="1">
+                    <mxGeometry x="-800" y="599.5" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="326" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-840" y="558" as="sourcePoint"/>
+                        <mxPoint x="-840" y="558" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-840" y="640"/>
+                            <mxPoint x="-840" y="718"/>
+                            <mxPoint x="-450" y="718"/>
+                            <mxPoint x="-230" y="718"/>
+                            <mxPoint y="718"/>
+                            <mxPoint y="560"/>
+                            <mxPoint y="378"/>
+                            <mxPoint/>
+                            <mxPoint x="-440"/>
+                            <mxPoint x="-840"/>
+                            <mxPoint x="-840" y="290"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="327" value="" style="edgeStyle=none;html=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-421.25" y="318" as="sourcePoint"/>
+                        <mxPoint x="-421.75" y="398" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="330" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1" target="325">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-720" y="586" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-422" y="516"/>
+                            <mxPoint x="-720" y="518"/>
+                            <mxPoint x="-720" y="556"/>
+                        </Array>
+                        <mxPoint x="-422.00000000000045" y="478" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="331" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="341" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-131" y="594.0000000000002" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-420" y="516"/>
+                            <mxPoint x="-120" y="516"/>
+                        </Array>
+                        <mxPoint x="-420.97435897435935" y="478" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="333" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1" target="338">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-519.5" y="518" as="sourcePoint"/>
+                        <mxPoint x="-520.5" y="594.0000000000002" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="334" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1" target="340">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-319.4999999999997" y="518" as="sourcePoint"/>
+                        <mxPoint x="-321" y="594" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="338" value="&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;GPIO to Peripheral Function&lt;/font&gt;&lt;/span&gt; " style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#CCFF99;" parent="1" vertex="1">
+                    <mxGeometry x="-600" y="598.5" width="160" height="81" as="geometry"/>
+                </mxCell>
+                <mxCell id="340" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;From one Peripheral Function to another&amp;nbsp;&lt;/span&gt;Peripheral Function&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FFFFCC;" parent="1" vertex="1">
+                    <mxGeometry x="-400" y="598.5" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="341" value="&lt;span class=&quot;fontstyle0&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;GPIO to I2C&lt;/font&gt;&lt;/span&gt; " style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#99FFFF;" parent="1" vertex="1">
+                    <mxGeometry x="-200" y="599" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="342" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Main Flow FFC/GPIO&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#FFCCE6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="-680" y="10" width="520" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="344" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="343">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-421" y="238" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="343" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;PFC/GPIO&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-502" y="80" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="346" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Bus Domain Protection Register&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FF66FF;" vertex="1" parent="1">
+                    <mxGeometry x="-520" y="401" width="200" height="79" as="geometry"/>
+                </mxCell>
+                <mxCell id="347" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Port Safe State setting&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FFFF00;" vertex="1" parent="1">
+                    <mxGeometry x="-522" y="241" width="200" height="79" as="geometry"/>
+                </mxCell>
+                <mxCell id="391" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Port Safe State setting&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#FFFF00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="-720" y="1172" width="560" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="392" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=24;" edge="1" source="393" target="397" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="393" value="&lt;span class=&quot;fontstyle0&quot;&gt;Set&amp;nbsp;&lt;span class=&quot;fontstyle0&quot;&gt;Bus Domain Protection Register&lt;/span&gt; &lt;br/&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;&quot;&gt;( DM1PR/DM2PR)&amp;nbsp; &amp;nbsp; *1&lt;/span&gt; " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-811" y="1434.5" width="237" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="394" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="395" target="393" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="395" value="&lt;span class=&quot;fontstyle0&quot;&gt;Clear the error flag in ECM s register&lt;br&gt;&amp;nbsp;*1&amp;nbsp; &amp;nbsp; *2&lt;/span&gt; " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-811" y="1274" width="237" height="77" as="geometry"/>
+                </mxCell>
+                <mxCell id="396" value="&lt;h1&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Note 1&lt;/span&gt;. &lt;font style=&quot;font-size: 12px;&quot;&gt;This process is only for GP4 to 7.&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Note 2&lt;/span&gt;. &lt;font style=&quot;font-size: 12px;&quot;&gt;Refer to Section 158.45.3.5, ECMmECLRn ECM Master/Checker Error Clear Trigger Register n.&lt;/font&gt;&lt;/span&gt; &lt;br&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;&quot;&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="-440" y="1244" width="400" height="117" as="geometry"/>
+                </mxCell>
+                <mxCell id="397" value="&lt;span class=&quot;fontstyle0&quot;&gt;Set&lt;br/&gt;&lt;span class=&quot;fontstyle0&quot;&gt;Port Safe state Select Registe&lt;/span&gt; &lt;br/&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;&quot;&gt;(PS0SR/PS1SR)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-811" y="1596" width="237" height="77" as="geometry"/>
+                </mxCell>
+                <mxCell id="398" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="397" target="399" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="399" value="&lt;span class=&quot;fontstyle0&quot;&gt;Set&amp;nbsp;&lt;span class=&quot;fontstyle0&quot;&gt;Port Safe state Enable Register&lt;br&gt;(PSER)&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-811" y="1756.5" width="237" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="400" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-840" y="1721" as="sourcePoint"/>
+                        <mxPoint x="-840" y="1721" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-840" y="1801"/>
+                            <mxPoint x="-840" y="1881"/>
+                            <mxPoint x="-450" y="1880"/>
+                            <mxPoint x="-230" y="1880"/>
+                            <mxPoint y="1881"/>
+                            <mxPoint y="1661"/>
+                            <mxPoint y="1511"/>
+                            <mxPoint y="1162"/>
+                            <mxPoint x="-440" y="1162"/>
+                            <mxPoint x="-840" y="1162"/>
+                            <mxPoint x="-840" y="1360"/>
+                            <mxPoint x="-840" y="1541"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="401" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Bus Domain Protection Register&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#FF66FF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="-719" y="2253" width="560" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="410" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-839" y="2802" as="sourcePoint"/>
+                        <mxPoint x="-839" y="2802" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-839" y="2882"/>
+                            <mxPoint x="-839" y="2962"/>
+                            <mxPoint x="-449" y="2961"/>
+                            <mxPoint x="-229" y="2961"/>
+                            <mxPoint x="1" y="2962"/>
+                            <mxPoint x="1" y="2742"/>
+                            <mxPoint x="1" y="2592"/>
+                            <mxPoint x="1" y="2243"/>
+                            <mxPoint x="-439" y="2243"/>
+                            <mxPoint x="-839" y="2243"/>
+                            <mxPoint x="-839" y="2441"/>
+                            <mxPoint x="-839" y="2622"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="447" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="449" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-581" y="3872" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-581" y="3760"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="448" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="449" parent="1" target="481">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-120" y="3870" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-120" y="3761"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="449" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;IO / Interrupt Mode&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+                    <mxGeometry x="-462" y="3720.5" width="201" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="450" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Peripheral Function to GPIO&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=#FFCCCC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="-581" y="3360" width="400" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="451" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;I/O&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="-563" y="3719" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="456" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="457" target="449" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="457" value="&lt;span class=&quot;fontstyle0&quot;&gt;Positive/negative logic&lt;br&gt;&lt;/span&gt; &lt;span class=&quot;fontstyle0&quot;&gt;select register&lt;/span&gt; &lt;br/&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="-462" y="3560" width="201" height="77" as="geometry"/>
+                </mxCell>
+                <mxCell id="458" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Interrupt&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="-240" y="3719" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="461" style="edgeStyle=none;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-581" y="3997"/>
+                            <mxPoint x="-700" y="3997"/>
+                        </Array>
+                        <mxPoint x="-581" y="3932" as="sourcePoint"/>
+                        <mxPoint x="-700" y="4080" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="462" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="497" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-581" y="3967"/>
+                            <mxPoint x="-581" y="3997"/>
+                            <mxPoint x="-463" y="3997"/>
+                        </Array>
+                        <mxPoint x="-581" y="3932" as="sourcePoint"/>
+                        <mxPoint x="-463" y="4080" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="465" value="Input" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="-701" y="3957" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="466" value="Output" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="-531" y="3957" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="479" value="&lt;span class=&quot;fontstyle0&quot;&gt;Setting Edge-Sensitive&lt;br&gt;&lt;span class=&quot;fontstyle0&quot;&gt;Setting Level-Sensitive&lt;/span&gt;&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                    <mxGeometry x="-200" y="4081" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="480" style="edgeStyle=none;html=1;fontSize=12;exitX=0.614;exitY=1.057;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-121" y="4080" as="targetPoint"/>
+                        <mxPoint x="-119.20000000000005" y="3922.736" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="481" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Interrupt Input Mode&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#E6FFCC;" vertex="1" parent="1">
+                    <mxGeometry x="-200" y="3880" width="159" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="482" value="" style="endArrow=none;dashed=1;html=1;startArrow=none;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint y="3610" as="sourcePoint"/>
+                        <mxPoint x="-838" y="3914.5" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2" y="3355.5"/>
+                            <mxPoint x="-438" y="3355.5"/>
+                            <mxPoint x="-838" y="3355.5"/>
+                            <mxPoint x="-838" y="3553.5"/>
+                            <mxPoint x="-838" y="3734.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="497" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;I/O Mode&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;" vertex="1" parent="1">
+                    <mxGeometry x="-680" y="3872" width="200" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="501" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Set the positive (not inverted) or negative (inverted) logic for&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;processing the input signals in POSNEG.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;0: Positive logic&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1: Negative logic&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#CCFFFF;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="3562" width="640" height="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="502" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;General Input/Output Switching Register (INOUTSELn) (n = 0 to 3) &lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;0: Input mode.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1: Output mode.&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="3800.5" width="640" height="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="503" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;General IO / Interrupt Switching Register (IOINTSELn) (n = 0 to 3) &lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;0: General input/output mode.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1: Interrupt input mode.&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E6FFCC;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="3920.5" width="640" height="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="504" value="&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot; class=&quot;fontstyle0&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;(&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color);&quot; class=&quot;fontstyle0&quot;&gt;FILONOFF)n &amp;amp; CLKSEL&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFCCCC;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="3440" width="640" height="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="517" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Chattering &amp;amp;&amp;nbsp;Synchronization&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+                    <mxGeometry x="-462" y="3407" width="201" height="77" as="geometry"/>
+                </mxCell>
+                <mxCell id="518" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="517" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-361.5" y="3562" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="524" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;General IO / Interrupt Switching Register (IOINTSELn) (n = 0 to 3) &lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;0: General input/output mode.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1: Interrupt input mode.&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFE6CC;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="3683" width="640" height="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="526" value="&lt;span class=&quot;fontstyle0&quot;&gt;General input register&lt;/span&gt; &lt;br/&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#CCCCFF;" vertex="1" parent="1">
+                    <mxGeometry x="-800" y="4082" width="200" height="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="528" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Read INDT to monitor the signal states on the port pins.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;0: External pin is read as low (when POSNEG = 0).&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1: External pin is read as high (when POSNEG = 0).&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#CCCCFF;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="4041" width="640" height="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="533" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="530" target="529">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-461" y="4200"/>
+                            <mxPoint x="-380" y="4200"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="530" value="&lt;span class=&quot;fontstyle0&quot;&gt;General data select register&lt;/span&gt; " style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#CCFFCC;" vertex="1" parent="1">
+                    <mxGeometry x="-563" y="4082" width="203" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="531" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-838" y="3914.5" as="sourcePoint"/>
+                        <mxPoint y="3610" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-838" y="3994.5"/>
+                            <mxPoint x="-838" y="4074.5"/>
+                            <mxPoint x="-838" y="4320"/>
+                            <mxPoint x="-840" y="4760"/>
+                            <mxPoint y="4750"/>
+                            <mxPoint y="4320"/>
+                            <mxPoint x="2" y="4074.5"/>
+                            <mxPoint x="2" y="3854.5"/>
+                            <mxPoint y="3610"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="529" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Output Data high / Low Mode&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFF99;" vertex="1" parent="1">
+                    <mxGeometry x="-481" y="4240" width="200" height="79" as="geometry"/>
+                </mxCell>
+                <mxCell id="535" value="&lt;div style=&quot;text-align: left;&quot;&gt;Set the output port value in OUTDT to change.&lt;br&gt;0: 0 is output. &lt;br&gt;1: 1 is output. &lt;br&gt;The above values are processed according to the settings of the positive/negative logic select register before actually being output by the ports. The OUTDT can be set values before INOUTSEL setting.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FF99FF;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="4280" width="640" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="537" value="&lt;div style=&quot;&quot;&gt;&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot; class=&quot;fontstyle0&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;Specifying OUTDTH/OUTDTL:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;The port output value changes after writing to OUTDTH or OUTDTL. Values are processed according to the settings of the positive/negative logic select register before actually being output by the ports.&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/h1&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFF99;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="4440" width="640" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="622" value="&lt;div style=&quot;text-align: left;&quot;&gt;Output mode by configuring OUTDTSEL register to change output by OUTDTH/OUTDTL register: &lt;br&gt;0: General output register OUTDT &lt;br&gt;1: Output data high/ output data low register OUTDTH/OUTDTL&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#CCFFCC;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="4161" width="640" height="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="623" value="&lt;span class=&quot;fontstyle0&quot;&gt;General output register&lt;/span&gt; &lt;br/&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FF99FF;" vertex="1" parent="1">
+                    <mxGeometry x="-720" y="4240" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="624" value="" style="endArrow=classic;html=1;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="623">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-460" y="4200" as="sourcePoint"/>
+                        <mxPoint x="-120" y="4200" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-640" y="4200"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
